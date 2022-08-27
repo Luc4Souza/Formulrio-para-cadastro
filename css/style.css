@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #314B75;
+       
+}
+
+main{
+   width: 400px;
+   text-align: center;
+   margin-top: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+label{
+    color:black;
+    word-spacing: 10px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.container{
+    background-color:#B1CCF7;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+.nome{
+    padding-left: 5px;
+    margin-left: -64px;
+    margin-right: -20px;
+    
+}
+
+.sobrenome{
+    margin-right: -18px;
+}
+
+.email{
+    margin-left: -68px;
+    margin-right: -7px;
+}
+
+.number{
+    margin-left: -38px;
+    margin-right: -7px;
+}
+
+.genero{
+    margin-left: -116px;
+    margin-right: -7px;
+}
+
+input{
+    background: rgb(250, 250, 250);
+    height: 25px;
+    width: 150px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #546175;
+}
+
+select{
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#546175;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #546175;
+}
+
+input:hover{
+    background: #669CF5;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+select:hover{
+    background: #669CF5;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+button:hover{
+    background:#517CC2;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 380px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.github:hover{
+    padding-left: 3px;
+    padding-right: 3px;
+    background: black;
+    color: #669CF5;
+    transition: 0.7s;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+

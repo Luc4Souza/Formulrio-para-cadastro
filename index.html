@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <div class="card-text">
+                <label class="nome" for="firstname">Nome </label>
+                <input class="nome-inp" id="firstname" type="text" name="firstname" placeholder="digite seu primeiro nome">
+            </div>
+            
+            <div class="card-text">
+                <label class="sobrenome" for="lastname">Sobrenome </label>
+                <input id="lastname" type="text" name="lastname" placeholder="digite seu ultimo nome">
+            </div>
+
+            <div class="card-text">
+                <label class="email" for="email">E-mail</label>
+                <input id="email" type="text" name="email" placeholder="digite seu email" required>
+            </div>
+
+            <div class="card-text">
+                <label class="number" for="number">Telefone</label>
+                <input id="number" type="text" name="number" placeholder="(xx) xx xxxxx-xxxx" required>
+            </div>
+
+            <div class="card-text">
+                <label class="genero" for="genero">Genero</label>
+                <select name="genero" id="genero">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outros</option>
+                </select>
+            </div>
+
+            <div class="button">
+                <button><a href="#">Enviar</a></button>
+            </div>
+        </div>
+
+      
+    </main>
+    <footer>
+            
+      <p>
+         desenvolvidor por <a  class="github" href="https://github.com/Luc4Souza" target="_blank"><strong>Lucas Souza</strong></a>
+      </p>
+            
+     </footer> 
+</body>
+</html>
